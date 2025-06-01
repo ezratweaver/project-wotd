@@ -43,7 +43,7 @@ This project is split into three main repositories:
 
 ## 🏗️ Architecture
 
-The application follows a modern microservices architecture:
+The application follows a client-server architecture:
 
 - **Frontend Layer**
   - React Native mobile application
