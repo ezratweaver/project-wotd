@@ -27,11 +27,13 @@ A word-of-the-day app that helps users learn new vocabulary. It includes a mobil
 This project is split into three main repositories:
 
 1. **[project-wotd-mobile](https://github.com/ezratweaver/project-wotd-mobile)**
+
    - React Native mobile application
    - Built with Expo and TypeScript
    - Provides the user interface for the application
 
 2. **[project-wotd-backend](https://github.com/ezratweaver/project-wotd-backend)**
+
    - Fastify-based REST API
    - PostgreSQL database with Prisma ORM
    - Handles business logic and data management
@@ -46,12 +48,14 @@ This project is split into three main repositories:
 The application follows a client-server architecture:
 
 - **Frontend Layer**
+
   - React Native mobile application
   - Expo for development and building
   - React Query for state management
   - Type-safe API integration
 
 - **Backend Layer**
+
   - Fastify API server
   - PostgreSQL database
   - Prisma ORM for database operations
@@ -71,6 +75,7 @@ The application follows a client-server architecture:
 To get started with development:
 
 1. Clone all repositories:
+
    ```bash
    git clone https://github.com/ezratweaver/project-wotd-mobile
    git clone https://github.com/ezratweaver/project-wotd-backend
@@ -80,5 +85,4 @@ To get started with development:
 2. Follow the setup instructions in each repository's README:
    - [Mobile Setup](https://github.com/ezratweaver/project-wotd-mobile#-development)
    - [Backend Setup](https://github.com/ezratweaver/project-wotd-backend#-development)
-   - [Infrastructure Setup](https://github.com/ezratweaver/project-wotd-infra#-setup)
-
+   - [Infrastructure Setup](https://github.com/ezratweaver/project-wotd-infra#%EF%B8%8F-setup)
